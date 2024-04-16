@@ -1,85 +1,87 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>¡Bienvenido a Hark! ¡Una forma más inteligente de leer!</title>
+    <title>Welcome to Hark! A smarter way of reading!</title>
     <style>
         body {
-            background-color: #4684b6; /* Color de fondo actualizado */
+            background-color: #4684b6; /* Updated background color */
             color: white;
             font-family: Arial, sans-serif;
             display: flex;
-            flex-direction: column; /* Asegura el apilamiento vertical */
-            justify-content: flex-start; /* Alinea los elementos desde la parte superior */
+            flex-direction: column; /* Ensures vertical stacking */
+            justify-content: flex-start; /* Aligns items from the top */
             align-items: center;
             height: 100vh;
             margin: 0;
-            text-align: center; /* Centra todo el texto dentro del cuerpo */
-            padding-top: 250px; /* Ajusta el relleno para evitar superposición con la imagen */
+            text-align: center; /* Centers all text inside the body */
+            padding-top: 250px; /* Adjust padding to prevent overlap with image */
         }
         .title {
-            font-size: 24px; /* Tamaño de fuente más pequeño que el predeterminado para h1 */
-            margin-bottom: 20px; /* Espacio después del título */
+            font-size: 24px; /* Smaller font size than the default for h1 */
+            margin-bottom: 20px; /* Space after title */
         }
         .description {
-            font-size: 16px; /* Tamaño de fuente para la descripción */
-            margin: 0 50px 20px; /* Margen vertical y horizontal */
+            font-size: 16px; /* Font size for the description */
+            margin: 0 50px 20px; /* Vertical and horizontal margin */
             text-align: left;
-            line-height: 1.6; /* Aumenta la altura de línea para una mejor legibilidad */
+            line-height: 1.6; /* Increase line height for better readability */
         }
         .paragraph {
-            margin-bottom: 20px; /* Aumento del espacio entre párrafos */
+            margin-bottom: 20px; /* Increased spacing between paragraphs */
+        }
+        .centered-paragraph {
+            text-align: center; /* Centers this paragraph */
         }
         .button {
-            background-color: #ff6347; /* Color de fondo más brillante (rojo tomate) */
+            background-color: #ff6347; /* Brighter background color (tomato red) */
             border: none;
-            color: #FDD017; /* Color de texto blanco para un mejor contraste */
+            color: #FDD017; /* White text color for better contrast */
             padding: 20px 40px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
-            font-size: 18px; /* Tamaño de fuente más grande */
-            font-weight: bold; /* Peso de fuente más audaz */
+            font-size: 18px; /* Larger font size */
+            font-weight: bold; /* Bolder font weight */
             border-radius: 12px;
             cursor: pointer;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil para profundidad */
-            transition: background-color 0.3s, box-shadow 0.3s; /* Transición suave para efectos de hover */
-            margin-top: 20px; /* Margen adicional sobre el botón */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+            transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+            margin-top: 20px; /* Additional margin above the button */
         }
         .button:hover {
-            background-color: #ff4500; /* Rojo más oscuro al pasar el ratón */
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Sombra más grande al pasar el ratón */
+            background-color: #ff4500; /* Slightly darker red on hover */
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
         }
         img.top-center-img {
-            max-width: 200px; /* Doble del ancho máximo original */
-            max-height: 200px; /* Doble de la altura máxima original */
+            max-width: 200px; /* Double the original max width */
+            max-height: 200px; /* Double the original max height */
             position: absolute;
-            top: 20px; /* Distancia desde la parte superior de la página */
+            top: 20px; /* Distance from the top of the page */
             left: 50%;
-            transform: translateX(-50%); /* Centra la imagen exactamente */
+            transform: translateX(-50%); /* Centers the image exactly */
             z-index: 100;
         }
     </style>
 </head>
 <body>
-    <img src="https://i.imgur.com/qoBPXq5.jpeg" alt="Imagen central superior" class="top-center-img">
-    <h1 class="title">¡Bienvenido a Hark! ¡Una forma más inteligente de leer!</h1>
+    <img src="https://i.imgur.com/qoBPXq5.jpeg" alt="Top Center Image" class="top-center-img">
+    <h1 class="title">Welcome to Hark! A smarter way of reading!</h1>
     <div class="description">
         <p class="paragraph">
-            Entonces, ¿qué es Hark? Básicamente, subes un libro, artículo o documento que has estado deseando leer, pero simplemente no has encontrado el tiempo para consumir.
+            So what is Hark? Basically, you upload a book, article or document that you’ve been craving to read, but just haven’t found the time to consume.
         </p>
         <p class="paragraph">
-            Hark entonces toma este texto y lo divide en pedacitos que luego se envían directamente a tu bandeja de entrada de WhatsApp, todo en un horario que tú eliges.
+            Hark then takes this text and splits it up into little pieces that are then sent straight to your WhatsApp inbox, all on a schedule that you choose.
         </p>
         <p class="paragraph">
-            De esta manera, puedes ir tachando libros de tu lista de lectura mientras estás en movimiento, esperando una cita o en cualquier pequeño espacio de tiempo durante tu día.
+            This way, you can check off your reading list while on the go, when waiting for an appointment, or any little space of time during your day.
         </p>
-
-        <p class="paragraph">
+        <p class="paragraph centered-paragraph">
             ¡El enlace de abajo te llevará a un formulario de Google para comenzar!
         </p>
     </div>
-    <a href="https://forms.gle/ZHFdNsrAiTQGWiRv8" class="button" target="_blank">¡Sube tu primer documento ahora!</a>
+    <a href="https://forms.gle/ZHFdNsrAiTQGWiRv8" class="button" target="_blank">Upload your first document now!</a>
 </body>
 </html>
